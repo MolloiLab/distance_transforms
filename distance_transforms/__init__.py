@@ -2,7 +2,7 @@
 Python bindings for the Julia DistanceTransforms.jl package.
 """
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 from .julia_import import jl, DistanceTransforms
 from .transform import transform
